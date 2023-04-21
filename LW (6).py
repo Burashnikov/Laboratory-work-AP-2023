@@ -37,3 +37,5 @@ for student, languages in students.items():
         chinese_speakers.append(student)
 
 print("Список студентов, которые знают китайский язык:", chinese_speakers)
+
+z1(), z2()
