@@ -65,4 +65,5 @@ def z4():
     img.paste(watermark, (42, 40), watermark)
     img.save("img_with_watermark.png")
 
-z1(), z2(), z3(), z4()
+
+z4()
