@@ -5,7 +5,7 @@ def z1():
     with Image.open(p) as img: #открывает изображение
         img.load() #считывает изображение
         img.show() #открывает изображение
-        cropp_img = img.crop((100, 100, 100, 100)) #обрезка изображения
+        cropp_img = img.crop((100, 75, 500, 550)) #обрезка изображения
         cropp_img.save("piconenew.jpg") #сохраняет новое изобажение
 
 def z2():
