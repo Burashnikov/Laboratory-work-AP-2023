@@ -9,7 +9,7 @@ def z1():
             print("Ресторан открыт к посещению!")
     newRestaurant = Restaurant("Кореана","Корейская")
     newRestaurant.describe_restaurant()
-    newRestaurant.open_restaurant()
+    newRestaurant.open_restaurant() #
 
 
 def z2():
